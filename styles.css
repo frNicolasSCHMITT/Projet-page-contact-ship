@@ -4,6 +4,9 @@ body{
     background-size: cover;
 }
 /* ------------------------------header----------------------- */
+.introcontact{
+    margin-top: 5%;
+}
 .introcontact h1{
     color: orange;
 }
@@ -31,6 +34,14 @@ body{
 .rondflex{
     display: flex;
     align-items: center;
+    border: none;
+}
+.rondflex a{
+    color: black;
+    font-weight: bold;
+}
+.rondflex h5{
+    padding: 10%;
 }
 /* ----------------------------------------footer-------------------------- */
 footer{
