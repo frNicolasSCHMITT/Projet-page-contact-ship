@@ -1,8 +1,42 @@
 body{
     text-align: center;
-    background-image: url(https://image.freepik.com/photos-gratuite/vue-aerienne-grande-zone-conteneurs-expedition_181624-3151.jpg);
+    background-image: url(./images/shipping-containers.jpg);
     background-size: cover;
 }
+/* ------------------------------header----------------------- */
+.introcontact h1{
+    color: orange;
+}
+.introcontact p{
+    color: white;
+    margin-bottom: 5%;
+}
+/* ---------------------------------section--------------------- */
 .infocontact{
-    
+    background-color: white;
+    padding: 5%;
+}
+.rondlogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: orange;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.icones{
+    font-size: 50px;
+}
+.rondflex{
+    display: flex;
+    align-items: center;
+}
+/* ----------------------------------------footer-------------------------- */
+footer{
+    color: white;
+    margin-top: 5%;
+}
+footer a{
+    color: white;
 }
