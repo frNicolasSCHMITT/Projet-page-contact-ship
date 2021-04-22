@@ -1,6 +1,7 @@
 body{
     text-align: center;
-    background-image: url(./images/shipping-containers.jpg);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url("./images/shipping-containers.jpg");
     background-size: cover;
 }
 /* ------------------------------header----------------------- */
